@@ -4,7 +4,7 @@
 // Engineer: 
 // 
 // Create Date: 2020/03/31 16:47:14
-// Design Name: 
+// Design Name: Jaso0n
 // Module Name: DDS_TOP
 // Project Name: 
 // Target Devices: 
@@ -170,22 +170,5 @@ module DDS_TOP #(
         .ena(1'b1)
     );
 
-//       lut_data_0 U2(
-//          .addra(addr),
-//          .clka(CLK),
-//          .douta(sine_data),
-//          .ena(1'b1)
-//       );
-//       lut_data_1 U3(
-//          .addra(addr),
-//          .clka(CLK),
-//          .douta(cosine_data),
-//          .ena(1'b1)
-//       );
-
-//    dist_mem_gen_0 U4(
-//        .a(addr),
-//        .spo(sine_data)
-//    );
     
 endmodule
